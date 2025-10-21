@@ -168,6 +168,9 @@ nav {
 
 .language {
     width:33.333%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
 .language__img {
@@ -191,4 +194,9 @@ nav {
 .language__list {
     display: flex;
     width: 100%;
+}
+
+.language__name {
+    position: absolute;
+    bottom:0;
 }
